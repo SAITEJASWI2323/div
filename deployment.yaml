@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: movie-rating-container
-        image: <your-dockerhub-username>/movie-rating-app:latest
+        image: saitejaswi23/movie-rating-app:latest
         ports:
         - containerPort: 5000
 ---
@@ -31,3 +31,4 @@ spec:
       port: 80
       targetPort: 5000
       nodePort: 30007 
+
