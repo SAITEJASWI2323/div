@@ -1,4 +1,4 @@
-FROM python:3.9-slim
-WORKDIR /app
-COPY . /app
+FROM python:3.9-slim 
+WORKDIR /app 
+COPY . /app 
 CMD ["python", "div.py"]
